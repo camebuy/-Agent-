@@ -1,0 +1,43 @@
+# Local credentials. Keep examples, never commit real values.
+.env
+.env.*
+!.env.example
+config/.env
+config/.env.*
+!config/.env.example
+.streamlit/secrets.toml
+
+# Personal files, chat history, browser profiles, logs and generated artifacts.
+data/
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+
+# Python and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editor, operating system and local backups.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.zip
+*.bak
+*.old

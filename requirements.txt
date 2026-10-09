@@ -1,0 +1,14 @@
+streamlit>=1.60,<2
+python-dotenv>=1.0
+llama-index-core>=0.14.24,<0.15
+llama-index-llms-openai-like>=0.8,<0.9
+llama-index-readers-file>=0.7,<0.8
+llama-index-embeddings-huggingface>=0.8,<0.9
+llama-index-postprocessor-sbert-rerank>=0.6,<0.7
+easyocr>=1.7,<1.8
+pywinauto>=0.6.8,<0.7; sys_platform == "win32"
+python-docx>=1.1,<2
+openpyxl>=3.1,<4
+reportlab>=4,<5
+pypdf>=5,<7
+Pillow>=10,<13
